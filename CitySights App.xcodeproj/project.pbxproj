@@ -11,6 +11,7 @@
 		D3B4DD562C24FC72000F213F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B4DD552C24FC72000F213F /* ContentView.swift */; };
 		D3B4DD582C24FC73000F213F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B4DD572C24FC73000F213F /* Assets.xcassets */; };
 		D3B4DD5B2C24FC73000F213F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B4DD5A2C24FC73000F213F /* Preview Assets.xcassets */; };
+		D3C62F9C2C26188E005EDE0B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C62F9B2C26188E005EDE0B /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D3B4DD552C24FC72000F213F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3B4DD572C24FC73000F213F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3B4DD5A2C24FC73000F213F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3C62F9B2C26188E005EDE0B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				D35362442C2511450013C406 /* CitySights-App-Info.plist */,
 				D3B4DD532C24FC72000F213F /* CitySights_AppApp.swift */,
 				D3B4DD552C24FC72000F213F /* ContentView.swift */,
+				D3C62F9B2C26188E005EDE0B /* DataService.swift */,
 				D35362432C25103E0013C406 /* Config.xcconfig */,
 				D3B4DD572C24FC73000F213F /* Assets.xcassets */,
 				D3B4DD592C24FC73000F213F /* Preview Content */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C62F9C2C26188E005EDE0B /* DataService.swift in Sources */,
 				D3B4DD562C24FC72000F213F /* ContentView.swift in Sources */,
 				D3B4DD542C24FC72000F213F /* CitySights_AppApp.swift in Sources */,
 			);
@@ -282,6 +286,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CitySights-App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,6 +317,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CitySights-App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
